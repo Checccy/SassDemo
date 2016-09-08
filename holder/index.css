@@ -1,0 +1,11 @@
+.clearfix:before, .clearfix:after {
+  content: "";
+  display: table;
+  font: 0/0 a; }
+.clearfix:after {
+  clear: both; }
+
+#header h1 {
+  width: 300px; }
+
+/*# sourceMappingURL=index.css.map */

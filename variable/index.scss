@@ -1,0 +1,33 @@
+
+$fontStack:    Helvetica, sans-serif;
+$primaryColor: #333 !default;
+$LineHeight: 1.47;
+$BaseFontsize:12px !default;
+$BorderDrection:top !default;
+$BaseLineHeight:1.47 !default;
+//data
+$px: 1px 2px 3px 4px;
+$pxdata:(1px 2px) (3px 4px);
+//map
+$heading: (h1: 2em, h2: 1.5em, h3: 1.2em);
+
+@each $header,$value in $heading{
+	#{$header} {
+		font-size: $value;
+	}
+
+}
+body {
+  font-family: $fontStack;
+  color: $primaryColor;
+  line-height: $LineHeight;
+  border-#{$BorderDrection}:1px solid #ccc;
+  font:#{$BaseFontsize}/#{$BaseLineHeight};
+  padding-left: nth($px,1);
+  padding-right:nth($pxdata,2);
+}
+$BaseFontsize:14px;
+.test{
+	font:#{$BaseFontsize}/#{$BaseLineHeight};
+	color:$primaryColor
+}

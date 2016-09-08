@@ -1,0 +1,26 @@
+h1 {
+  font-size: 2em; }
+
+h2 {
+  font-size: 1.5em; }
+
+h3 {
+  font-size: 1.2em; }
+
+body {
+  font-family: Helvetica, sans-serif;
+  color: #333;
+  line-height: 1.47;
+  border-top: 1px solid #ccc;
+  font: 12px/1.47;
+  padding-left: 1px;
+  padding-right: 3px 4px; }
+
+.test {
+  font: 14px/1.47;
+  color: #fff; }
+
+.test-once-again {
+  font: 18px/1.47; }
+
+/*# sourceMappingURL=index.css.map */

@@ -1,0 +1,26 @@
+
+//tag nesting
+.nesting-test{
+	font-size:14px;
+	.child{
+		font-size: 12px;
+	}
+	.children{
+		font-size: 10px;
+	}
+}
+
+//property nesting
+.fakeshadow {
+  border: {
+    style: solid;
+    left: {
+      width: 4px;
+      color: #888;
+    }
+    right: {
+      width: 2px;
+      color: #ccc;
+    }
+  }
+}

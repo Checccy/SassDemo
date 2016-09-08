@@ -1,0 +1,49 @@
+.ib {
+  display: inline-block;
+  *display: inline;
+  *zoom: 1; }
+
+p {
+  color: green; }
+
+.test {
+  font-size: 14px;
+  height: 21px; }
+
+.item-1 {
+  width: 2em; }
+
+.item-2 {
+  width: 4em; }
+
+.item-3 {
+  width: 6em; }
+
+.puma-icon {
+  background-image: url("/images/puma.png"); }
+
+.sea-slug-icon {
+  background-image: url("/images/sea-slug.png"); }
+
+.egret-icon {
+  background-image: url("/images/egret.png"); }
+
+.salamander-icon {
+  background-image: url("/images/salamander.png"); }
+
+.puma-icon {
+  background-image: url("/images/puma.png");
+  border: 2px solid black;
+  cursor: default; }
+
+.sea-slug-icon {
+  background-image: url("/images/sea-slug.png");
+  border: 2px solid blue;
+  cursor: pointer; }
+
+.egret-icon {
+  background-image: url("/images/egret.png");
+  border: 2px solid white;
+  cursor: move; }
+
+/*# sourceMappingURL=index.css.map */

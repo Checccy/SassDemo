@@ -1,0 +1,25 @@
+%ir{
+  color: transparent;
+  text-shadow: none;
+  background-color: transparent;
+  border: 0;
+}
+%clearfix{
+  &:before,
+  &:after {
+    content: "";
+    display: table;
+    font: 0/0 a;
+  }
+  &:after {
+    clear: both;
+  }
+}
+#header{
+  h1{
+    width:300px;
+  }
+}
+.clearfix{
+  @extend %clearfix;
+}
